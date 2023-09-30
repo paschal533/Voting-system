@@ -21,6 +21,7 @@ contract VotingSystem is Ownable, ReentrancyGuard  {
     address[] private candidateAddresses;
     uint256 private voteCount;
 
+    // Events
     event VoterRegistered ( address voter );
     event CandidateRegistered ( address candidate, string name );
     event Vote ( address voter, string candidateName );
