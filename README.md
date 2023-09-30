@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Voting System
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A decentralized voting system is a concept that aims to distribute and enhance the security, transparency, and accessibility of the voting process by reducing the reliance on centralized authorities and traditional paper-based voting systems. It leverages blockchain technology and cryptographic methods to achieve these goals. 
 
-Try running some of the following tasks:
+## Functions
+- Registers voters.
+- Registers candidates.
+- Allows registered voters to vote a candidate.
+- Retrieves a candidate's vote count.
+- Gets the winning candidate.
+- Retrieves total vote casted.
 
-```shell
-npx hardhat help
+# 🛠 test the smart-contract:
+
+```
+npm install
+
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```
+
+# ✔ Deployed Smart Contract address on Swisstronik testnet
+
+```
+https://explorer-evm.testnet.swisstronik.com/address/0x683174c9c493FA08dED66D18E3e128B18D5ae19a
 ```
