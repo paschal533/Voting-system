@@ -8,7 +8,7 @@ A decentralized voting system is a concept that aims to distribute and enhance t
 - Allows registered voters to vote a candidate.
 - Retrieves a candidate's vote count.
 - Gets the winning candidate.
-- Retrieves the current vote casted.
+- Retrieves the current vote count.
 
 # 🛠 test the smart-contract:
 
